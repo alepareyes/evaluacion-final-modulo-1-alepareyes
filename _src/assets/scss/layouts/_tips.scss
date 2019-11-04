@@ -2,6 +2,9 @@
   padding: 15px;
   background: $whiteColor;
 
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    padding: 0 45px 0 45px;
+  }
   &__minititle {
     margin-top: 30px;
     color: $blueColor;
