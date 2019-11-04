@@ -36,16 +36,15 @@
   background-position-x: center;
   background-position-y: top;
   background-repeat: no-repeat;
+  background-size: cover;
+
   height: 100vh;
   padding: 15px;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-
-  @media all and (min-width: 1200px) {
-    background-size: cover;
-  }
 
   &__anonymus {
     text-transform: uppercase;
