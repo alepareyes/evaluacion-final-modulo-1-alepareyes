@@ -17,6 +17,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 45px;
+  margin-bottom: 53px;
 }
 
 .hero {
@@ -29,7 +31,7 @@
   padding: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 
   &__anonymus {
@@ -45,5 +47,7 @@
     color: $whiteColor;
     display: inline;
     border: cornflowerblue 2px solid;
+    margin-top: 10px;
+    font-family: $contentFont;
   }
 }

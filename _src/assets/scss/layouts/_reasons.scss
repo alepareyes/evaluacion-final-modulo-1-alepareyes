@@ -1,14 +1,13 @@
-.reasons {
-  border: gold solid 2px;
+.reasons-grid {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 70px 1fr 70px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
 
-  &__grid {
-    display: grid;
-    grid-template-columns: 12px 12px 12px;
-    grid-template-rows: 12px 12px 12px;
-    border: gray 2px solid;
-
-    &__item {
-      background-color: hotpink;
-    }
-  }
+.item {
+  border: green 2px solid;
+}
+.item1 {
 }
