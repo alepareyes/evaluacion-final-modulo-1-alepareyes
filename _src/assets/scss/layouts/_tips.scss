@@ -1,3 +1,25 @@
 .tips {
   border: chocolate solid 3px;
+  padding: 15px;
+  background: $whiteColor;
+
+  &__minititle {
+    margin-top: 30px;
+    color: $blueColor;
+    font-size: 14px;
+  }
+
+  &__title {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: $titleFont;
+  }
+
+  &__content {
+    border: green 2px solid;
+    color: #4a4a4a;
+    font-family: $contentFont;
+    font-size: 18px;
+    margin-bottom: 120px;
+  }
 }
