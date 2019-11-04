@@ -6,14 +6,22 @@
   flex-direction: column;
   color: $whiteColor;
 
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+
   &__list {
     text-transform: uppercase;
+
     font-family: $contentFont;
     margin-top: 30px;
     list-style: none;
     text-align: center;
     font-size: 16px;
     line-height: 1.88;
+    border: springgreen 2px solid;
   }
 }
 
@@ -21,16 +29,20 @@
   margin-top: 30px;
   margin-bottom: 10px;
   font-family: $contentFont;
+  border: springgreen 2px solid;
+  text-align: center;
 }
 
 .love {
   font-family: $contentFont;
   margin-bottom: 45px;
+  border: springgreen 2px solid;
 }
 
 .heart {
   color: $orangeColor;
   color: #f26125;
+  border: springgreen 2px solid;
 }
 
 .arrowup-button {
