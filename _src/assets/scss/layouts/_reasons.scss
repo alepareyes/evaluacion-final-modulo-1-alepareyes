@@ -37,4 +37,9 @@
   align-items: center;
   font-size: 20px;
   margin-bottom: 60px;
+  transition: ease 1s;
+
+  &:hover {
+    font-size: 22.5px;
+  }
 }

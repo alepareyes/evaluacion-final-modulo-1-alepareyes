@@ -9,15 +9,11 @@
   &__list {
     text-transform: uppercase;
     font-family: $contentFont;
-    margin-top: 70px;
+    margin-top: 30px;
     list-style: none;
     text-align: center;
     font-size: 16px;
     line-height: 1.88;
-
-    &-2 {
-      margin-bottom: 30px;
-    }
   }
 }
 
