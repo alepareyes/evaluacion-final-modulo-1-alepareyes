@@ -1,0 +1,10 @@
+.reasons {
+  display: grid;
+  grid-column: 25% 50% 25%;
+  grid-row: 300px;
+  border: gold solid 2px;
+
+  &__text {
+    border: gray 2px solid;
+  }
+}
