@@ -1,27 +1,55 @@
 .footer {
   background-color: $darkestColor;
+  color: $whiteColor;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: $whiteColor;
+}
+
+.footer-uls {
+  background-color: $darkestColor;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   @media all and (min-width: 768px) and (max-width: 1200px) {
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
+    flex-direction: row;
     align-items: baseline;
+    padding: 0px 40px 30px 60px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  @media all and (min-width: 1200px) {
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0px 350px 30px 380px;
+    width: 100%;
+    justify-content: space-between;
   }
 
   &__list {
     text-transform: uppercase;
-
     font-family: $contentFont;
-    margin-top: 30px;
     list-style: none;
     text-align: center;
     font-size: 16px;
     line-height: 1.88;
-    border: springgreen 2px solid;
+    margin-bottom: 30px;
+
+    @media all and (min-width: 768px) and (max-width: 1200px) {
+      margin: 0;
+      text-align: start;
+    }
+
+    @media all and (min-width: 1200px) {
+      margin: 0;
+      text-align: start;
+    }
   }
 }
 
@@ -29,20 +57,27 @@
   margin-top: 30px;
   margin-bottom: 10px;
   font-family: $contentFont;
-  border: springgreen 2px solid;
   text-align: center;
+  font-size: 14px;
+
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    text-align: start;
+  }
+
+  @media all and (min-width: 1200px) {
+    text-align: start;
+  }
 }
 
 .love {
   font-family: $contentFont;
   margin-bottom: 45px;
-  border: springgreen 2px solid;
+  font-size: 14px;
 }
 
 .heart {
   color: $orangeColor;
   color: #f26125;
-  border: springgreen 2px solid;
 }
 
 .arrowup-button {
@@ -55,6 +90,32 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 24px;
+  bottom: 20px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    /* 
+    transform: translate(-560%, -260%); */
+  }
+  @media all and (min-width: 1200) {
+    align-self: center;
+  }
+}
+
+.list1 {
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    order: 2;
+  }
+  @media all and (min-width: 1200px) {
+    order: 2;
+  }
+}
+
+.list2 {
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    order: 3;
+  }
+  @media all and (min-width: 1200px) {
+    order: 3;
+  }
 }

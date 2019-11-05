@@ -2,6 +2,7 @@
   background: #eff9ff;
   border: #eff9ff 1px solid;
   padding: 0 45px 0 45px;
+
   &__title {
     text-align: center;
     text-transform: capitalize;
@@ -15,6 +16,7 @@
     grid-template-columns: 180px;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 45px;
+
     justify-content: center;
 
     @media all and (min-width: 768px) and (max-width: 1200px) {
@@ -38,22 +40,28 @@
   text-align: center;
   line-height: 1.4;
   font-size: 18px;
+
   width: 180px;
 }
 
 .more-botton {
   border-radius: 22.5px;
   background: $orangeColor;
-  width: 184px;
-  height: 45px;
+
   color: $whiteColor;
   font-family: $contentFont;
+  font-size: 20px;
+
+  width: 184px;
+  height: 45px;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+
   margin-top: 45px;
   margin-bottom: 60px;
+
   transition: ease 1s;
 
   &:hover {

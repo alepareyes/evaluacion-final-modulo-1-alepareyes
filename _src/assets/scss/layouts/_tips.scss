@@ -35,15 +35,19 @@
 .go-botton {
   width: 76px;
   height: 45px;
+
   border: $orangeColor solid 2px;
   border-radius: 22.5px;
+
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 45px;
+
   font-size: 20px;
   font-family: $contentFont;
   color: $orangeColor;
-  margin-bottom: 45px;
+
   transition: color ease 1s;
 
   &:hover {
