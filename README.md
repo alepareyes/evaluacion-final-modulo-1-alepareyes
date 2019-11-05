@@ -4,7 +4,7 @@
 
 Ahoy! Esta es nuestro Starter Kit en node/gulp para este primer contacto con el desarrollo web Incluye SCSS, un sistema de plantillas HTMl y un web server.
 
-## Guía de inicio rápido
+## Guía de inicio rápido!
 
 Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com) para trabajar con este Starter Kit, luego:
 
